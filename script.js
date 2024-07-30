@@ -25,33 +25,33 @@ console.log(doubledNums);
 // Exercise 2: Array destructuring
 // Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
 
-// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
-// // Your code here
-// const [firstTopping, secondTopping] = pizzaToppings;
-// console.log(firstTopping);  
-// console.log(secondTopping); 
+// Your code here
+const [firstTopping, secondTopping] = pizzaToppings;
+console.log(firstTopping);  
+console.log(secondTopping); 
 
 
 // Exercise 3: Destructuring objects
 
 // Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
 
-// const car = {
-//     make: 'Audi',
-//     model: 'q5',
-//   };
+const car = {
+    make: 'Audi',
+    model: 'q5',
+  };
   
-//   // Your code here
-//   const { make, model } = car;
-// console.log(make);   
-// console.log(model);  
+  // Your code here
+  const { make, model } = car;
+console.log(make);   
+console.log(model);  
   
 
 // Exercise 4: Applying the spread operator on arrays
 // Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
 
-const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 // Your code here
 const controversialPizzaToppings = [...pizzaToppings, ...pizzaToppings];
@@ -61,10 +61,10 @@ console.log(controversialPizzaToppings);
 // Exercise 5: Applying the spread operator on objects
 // Duplicate the following object and spread its values into a new variable `myCar`.
 
-const car = {
-    make: 'Audi',
-    model: 'q5',
-  };
+// const car = {
+//     make: 'Audi',
+//     model: 'q5',
+//   };
   
   // Change the `model` property of `myCar` to 'q7'. Log both objects.
   
@@ -102,8 +102,9 @@ console.log(userProfile);
 
 // Your code here
 function describe(noun = 'cat', adjective = 'white') {
-    console.log(describe);
-  }
+  console.log(`The ${noun} is ${adjective}.`);
+}
+
 
 //   Exercise 9: Ternary operator
   // Convert the following `if...else` statement in to a ternary:
